@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
     font-family: 'NotoSans';
     src: url('../fonts/NotoSans/ExtraLight.ttf') format('ttf');
     font-weight: 100;
@@ -45,7 +45,7 @@
     font-style: b;
     font-display: swap;
 }
-*/
+
 @font-face {
     font-family: 'Noto Sans SC';
     src: url('../fonts/NotoSans/Heavy.ttf') format('ttf');
