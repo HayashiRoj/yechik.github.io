@@ -1,9 +1,9 @@
-@font-face {
+/*@font-face {
     font-family: 'NotoSans';
     src: url('../fonts/NotoSans/ExtraLight.ttf') format('ttf');
     font-weight: 100;
     font-style: el;
-    font-display: swap; /* 优化加载体验 */
+    font-display: swap; 
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     src: url('../fonts/NotoSans/Light.ttf') format('ttf');
     font-weight: 200;
     font-style: l;
-    font-display: swap; /* 优化加载体验 */
+    font-display: swap; 
 }
 
 @font-face {
@@ -19,7 +19,7 @@
     src: url('../fonts/NotoSans/Normal.ttf') format('ttf');
     font-weight: 300;
     font-style: n;
-    font-display: swap; /* 优化加载体验 */
+    font-display: swap; 
 }
 
 @font-face {
@@ -27,7 +27,7 @@
     src: url('../fonts/NotoSans/Regular.ttf') format('ttf');
     font-weight: 400;
     font-style: r;
-    font-display: swap; /* 优化加载体验 */
+    font-display: swap; 
 }
 
 @font-face {
@@ -45,7 +45,7 @@
     font-style: b;
     font-display: swap;
 }
-
+*/
 @font-face {
     font-family: 'Noto Sans SC';
     src: url('../fonts/NotoSans/Heavy.ttf') format('ttf');
