@@ -29,3 +29,8 @@ h1.b{
 h1.h{
     font-weight: 700;
 }
+
+img.logo{
+    max-width: 100%;    
+    height: auto;
+}
