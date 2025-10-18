@@ -1,72 +1,67 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yechik</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Yechik主页</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- 毛玻璃顶部栏 -->
-    <header id="mainHeader">
-        <div class="logo-container">
-            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxMDgwIiB2aWV3Qm94PSIwIDAgMTA4MCAxMDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTA4MCIgaGVpZ2h0PSIxMDgwIiBmaWxsPSIjNjM0QkFEIi8+CjxjaXJjbGUgY3g9IjU0MCIgY3k9IjU0MCIgcj0iMjUwIiBmaWxsPSIjRkZGRkZGIi8+CjxwYXRoIGQ9Ik00MjAgNTQwIEEyMDAgMjAwIDAgMSAxIDY2MCA1NDAgQTIwMCAyMDAgMCAxIDEgNDIwIDU0MCIgZmlsbD0iIzM0M0E1OSIvPgo8dGV4dCB4PSI1NDAiIHk9IjU4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4MCIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+WTwvdGV4dD4KPC9zdmc+" alt="Yechik Logo" class="logo">
-            <span class="brand-name">Yechik</span>
+    <header>
+        <div class="container">
+            <div class="logo">Yechik</div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-        
-        <!-- 汉堡菜单按钮 -->
-        <button class="menu-toggle" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        
-        <!-- 导航菜单 -->
-        <nav class="nav-menu" id="navMenu">
-            <ul>
-                <li><a href="./index.html">主页</a></li>
-                <li><a href="./download.html">下载</a></li>
-                <li><a href="https://moe.page/" target="_blank">MOE PAGE</a></li>
-                <li><a href="https://icp.gov.moe/" target="_blank">MOE ICP</a></li>
-                <li><a href="https://icp.redcha.cn/" target="_blank">茶备案</a></li>
-            </ul>
-        </nav>
     </header>
-
-    <!-- 主内容区域 -->
-    <main>
+    
+    <nav id="mainNav">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="./index.html" class="active">首页</a></li>
+                <li><a href="./download.html">下载</a></li>
+                <li><a href="#">MOE.PAGE</a></li>
+                <li><a href="#">MOE ICP</a></li>
+                <li><a href="#">茶备案</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
         <section class="hero">
-            <div class="hero-content">
-                <h1>欢迎来到 Yechik</h1>
-                <p>简洁 · 现代 · 高效</p>
-                <button class="cta-button">了解更多</button>
-            </div>
+            <h1>Yechik Studio</h1>
+            <p>个人工作室(指只有我一个人)的应用等内容的发布站</p>
+            <a href="#" class="btn">了解更多(还没做这个awa)</a>
         </section>
-
-        <section class="features">
-            <div class="container">
-                <h2>我们的特色</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <h3>创新设计</h3>
-                        <p>采用最新的设计理念，打造卓越的用户体验</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>高性能</h3>
-                        <p>优化的性能表现，确保流畅的操作体验</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>安全可靠</h3>
-                        <p>多重安全保障，保护您的数据和隐私</p>
-                    </div>
+        
+        <section>
+            <h2>推荐</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>新上线</h3>
+                    <p>WarmPlayer(beta),Apexon(beta)</p>
+                </div>
+                <div class="card">
+                    <h3>关于</h3>
+                    <p>2019年就想着了结果不知道做啥呵呵</p>
+                </div>
+                <div class="card">
+                    <h3>不知道放啥</h3>
+                    <p>这里空着不好看</p>
                 </div>
             </div>
         </section>
+        
+        <section>
+            <h2>有bug找我</h2>
+            <p>mail:2034502495@qq.com</p>
+        </section>
     </main>
-
-    <!-- 页脚 -->
-    <footer>
+    
+    <footer class="footer">
         <div class="container">
             <p>2019~2025 YechikStudio. 保留所有权利.</p>
             <p>联系方式: 上面有了这里不多赘述</p>
@@ -75,7 +70,7 @@
             <p><a href="https://github.com/HayashiRoj/yechik.github.io">见识下本站的github页吧(雾)</a></p>
         </div>
     </footer>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
